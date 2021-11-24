@@ -1,3 +1,5 @@
+/*
+
 #include<stdio.h>
 
 int num[5], sum = 0;
@@ -14,14 +16,14 @@ int main(void){
 		for (int k = 0; k < 4; k++) {
 			if(num[j]>num[k]){
 				swap(&num[j], &num[k]);
-			}
+			} 
 		}
 	}
-	printf("\n³»¸²Â÷¼ø ");
+	printf("\nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ");
 	for (int l = 0; l<5 ; l++)
 				printf("%d ", num[l]);
 
-	printf("\nsum °ª %d\n\nÆò±Õ°ª %d\n\n", sum, sum / 5);
+	printf("\nsum ï¿½ï¿½ %d\n\nï¿½ï¿½Õ°ï¿½ %d\n\n", sum, sum / 5);
 
 	}
 
@@ -29,15 +31,16 @@ int main(void){
 void swap(int* a, int* b)
 {
 	int c;
-	printf("swap ÀÌÀü ÁÖ¼Ò %u %u %u\n", &*a, &*b, &c);
-	printf("swap ÀÌÀü °ª %d %d %d \n", a, b, c);
+	printf("swap ï¿½ï¿½ï¿½ï¿½ ï¿½Ö¼ï¿½ %u %u %u\n", &*a, &*b, &c);
+	printf("swap ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ %d %d %d \n", a, b, c);
 
 	c = *a;
 	*a = *b;
 	*b = c;
 
-	printf("swap ÀÌÈÄ ÁÖ¼Ò %u %u %u\n", &*a, &*b, &c);
-	printf("swap ÀÌÈÄ °ª %d %d %d \n\n", a, b, c);
+	printf("swap ï¿½ï¿½ï¿½ï¿½ ï¿½Ö¼ï¿½ %u %u %u\n", &*a, &*b, &c);
+	printf("swap ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ %d %d %d \n\n", a, b, c);
 
 }
 
+*/
