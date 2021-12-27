@@ -29,7 +29,7 @@ void SumN(unsigned int* array, unsigned int k)
 
 
 //9-2
-
+/*
 int func(int i, int j);
 
 int main(void) {
@@ -64,7 +64,7 @@ int main(void) {
 		for (int j = 0; j < 4; j++)
 			printf("addr.of doub[%d][%d] = %8x.\n", i, j, ((double*)doub + func(i, j)));
 	
-}
+}*/
 
 
 
